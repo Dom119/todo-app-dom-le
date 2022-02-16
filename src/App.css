@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(0, 30, 60);
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-items {
+  width: 500px;
+  margin: 30px;
+}
+
+.myBadge {
+  margin-left: 5px;
+}
+
+.myToast {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+/* .left {
+  text-align: left;
+}
+
+.right {
+  position: relative;
+  right: 0px;
+} */
