@@ -86,7 +86,7 @@ export default function Todo({ todo, crossTodo, editTodo, deleteTodo }) {
 
       <Modal show={open} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Change Task</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <InputGroup className="mb-3">
